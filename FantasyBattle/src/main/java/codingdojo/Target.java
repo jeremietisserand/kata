@@ -1,4 +1,5 @@
 package codingdojo;
 
-abstract class Target {
+interface Target {
+    int getSoak(int totalDamage);
 }

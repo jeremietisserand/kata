@@ -14,9 +14,4 @@ public class BasicBuff implements Buff {
     public float soakModifier() {
         return soak;
     }
-
-    @Override
-    public float damageModifier() {
-        return damage;
-    }
 }
