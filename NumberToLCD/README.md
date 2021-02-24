@@ -1,6 +1,6 @@
 # Kata Number to LCD
 
-Reference : https://codingdojo.org/kata/NumberToLCD/
+Reference: https://codingdojo.org/kata/NumberToLCD/
 
 https://gist.github.com/arikfr/11362378#file-gistfile1-txt Goal: write a program that displays LCD style numbers.
 

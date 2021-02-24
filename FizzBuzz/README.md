@@ -1,3 +1,3 @@
-# Kata
+# Kata FizzBuzz
 
-Explanation of the resolved kata
+Reference: https://codingdojo.org/kata/FizzBuzz/
