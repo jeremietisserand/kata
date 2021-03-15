@@ -1,12 +1,11 @@
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class FizzBuzzTest {
 
     @Test
-    void should_fizz_buzzs() {
+    void should_fizz_buzz() {
         FizzBuzz fizzBuzz = new FizzBuzz();
 
         String[] expected = {"1", "2", "fizz", "4", "buzz",

@@ -1,13 +1,11 @@
-package FizzBuzz;
-
-public class FizzBuzz {
+public class FizzBuzzIII {
 
     public static final String FIZZ = "fizz";
     public static final String BUZZ = "buzz";
     public static final String FIZZBUZZ = "fizzbuzz";
     private final int fizzBuzz;
 
-    private FizzBuzz(int fizzBuzz) {
+    private FizzBuzzIII(int fizzBuzz) {
         this.fizzBuzz = fizzBuzz;
     }
 
@@ -20,7 +18,7 @@ public class FizzBuzz {
     }
 
     public static String get(int fizzBuzz) {
-        FizzBuzz fb = new FizzBuzz(fizzBuzz);
+        FizzBuzzIII fb = new FizzBuzzIII(fizzBuzz);
         if (fb.isFizz() && fb.isBuzz()) {
             return FIZZBUZZ;
         }
