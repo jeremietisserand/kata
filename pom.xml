@@ -7,15 +7,30 @@
     <groupId>org.jtisserand</groupId>
     <artifactId>Kata</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
     </properties>
 
     <modules>
+        <module>bowling-kata</module>
+        <module>FantasyBattle</module>
+        <module>FantasyBattleSecond</module>
+        <module>FizzBuzz</module>
         <module>JavaSetup</module>
-        <module>StringSum</module>
+        <module>LeapYear</module>
+        <module>List</module>
+        <module>MovieRental</module>
+        <module>NumberToLCD</module>
+        <module>RomanNumerals</module>
+        <module>StringCalculator</module>
+        <module>TennisKata</module>
+        <module>TripServiceKata</module>
+        <module>WordWrap</module>
+        <module>WordWrapCrafter</module>
+        <module>Yahtzee</module>
     </modules>
 
 </project>
